@@ -1,0 +1,201 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-family: sans-serif;
+  color: #40514E;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  padding-top: 30px;
+  margin-bottom: 0;
+  color: #66BFBF;
+}
+
+h2{
+  margin-top: 0;
+font-family: 'Merriweather Sans', sans-serif;  color: #66BFBF;
+  font-weight: normal;
+  font-size: 35px;
+}
+
+h3,a{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #9bfbff 7px;
+  border-bottom: none;
+  width: 5%;
+  margin: 75px auto;
+}
+
+
+#pro{
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* .navbar{
+  background-color: #ddffdd;
+  justify-content: center;
+  text-align: center;
+
+} */
+
+/* .navbar a{
+  text-decoration: none;
+} */
+/* .navbar ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.navbar ul li{
+  margin: 45px 38px;
+}
+
+.navbar ul a{
+  text-decoration: none;
+  font-family: sans-serif;
+} */
+
+/*
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.first-div{
+  background-color: #beffed;
+  padding-top: 50px;
+}
+
+
+.first-cloud{
+  position: absolute;
+  left: 75%;
+  top: 20px;
+}
+
+
+.second-cloud{
+  position: absolute;
+  left: 230px;
+}
+
+.skills{
+  width: 50%;
+  margin: auto;
+}
+
+.code-img{
+  width: 40%;
+}
+
+.skill-1{
+  margin: 0 auto 0;
+}
+
+
+.btn{
+    border-radius: 25px;
+    padding: 12px;
+    margin-bottom: 23px;
+    background-color: #a7d7f9;
+}
+
+.btn:hover{
+  background-color: #5afff0;
+}
+
+.bottom-container{
+  background-color: #beffed;
+  padding: 20px 0 15px;
+}
+
+.footer-link{
+  margin: auto 18px;
+text-decoration: none;
+}
+
+.footer-link:hover{
+  background-color: white;
+  color: black;
+
+}
+
+
+@media only screen and (max-width: 667px){
+      .first-cloud{
+        left: 60%;
+        width: 35%;
+        top: 28px;
+      }
+       
+      .second-cloud{
+        left: 12%;
+        width: 25%;
+        
+      }
+
+      h1{
+        font-size: 3.5rem;
+      }
+      
+      h2{
+        font-size: xx-large;
+      }
+
+      h3{
+        font-size: 2rem;
+      }
+     
+      .intro {
+        width: 79%;
+        margin: auto;
+        font-size: 1.7rem;
+      }
+      
+      #mountain{
+        width: 95%;
+      }
+
+      .code-img {
+        width: 95%;
+    }
+
+    .skills {
+      width: 96%;
+      margin: auto;
+    }
+
+    .skill-1 {
+    margin: 0 auto 0;
+    font-size: 1.4rem;
+    }
+
+    .skill-2{
+      margin: 0 auto 0;
+    font-size: 1.4rem;
+    }
+
+    .video-pic{
+      width: 80%;
+    }
+}
